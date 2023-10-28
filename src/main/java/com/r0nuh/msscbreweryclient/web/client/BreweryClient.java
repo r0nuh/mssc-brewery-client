@@ -1,4 +1,4 @@
-package guru.springframework.msscbreweryclient.web.client;
+package com.r0nuh.msscbreweryclient.web.client;
 
 import java.net.URI;
 import java.util.UUID;
@@ -8,8 +8,8 @@ import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import guru.springframework.msscbreweryclient.web.model.BeerDto;
-import guru.springframework.msscbreweryclient.web.model.CustomerDto;
+import com.r0nuh.msscbreweryclient.web.model.BeerDto;
+import com.r0nuh.msscbreweryclient.web.model.CustomerDto;
 
 @Component
 @ConfigurationProperties(prefix = "sfg.brewery", ignoreUnknownFields = false)
